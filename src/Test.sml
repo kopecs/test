@@ -1,3 +1,2 @@
-structure Test :> TEST =
-  struct
-  end
+structure Test = DeriveTest (Runner)
+
